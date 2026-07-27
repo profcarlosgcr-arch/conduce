@@ -19,7 +19,9 @@ jobs:
         node-version: 18
 
     - name: Install dependencies
-      run: npm install
+      run: |
+        npm install
+        npm install @capacitor/core @capacitor/cli @capacitor/android
 
     - name: Build Web Assets
       run: npm run build
@@ -30,10 +32,15 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
+    - name: Initialize Capacitor Config if missing
+      run: |
+        if [ ! -f "capacitor.config.json" ] && [ ! -f "capacitor.config.ts" ]; then
+          npx cap init ConducePro com.conducepro.app --web-dir dist
+        fi
+
     - name: Add Android Platform & Sync
       run: |
         npx cap add android || true
-        npx cap copy android
         npx cap sync android
 
     - name: Build Android App Bundle (.aab)
