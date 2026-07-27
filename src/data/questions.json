@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cuál es la velocidad máxima permitida en una zona escolar con presencia de estudiantes?",
+    "options": [
+      "15 km/h",
+      "25 km/h",
+      "40 km/h",
+      "60 km/h"
+    ],
+    "correct": 1,
+    "description": "En zonas escolares la velocidad máxima es de 25 km/h cuando hay estudiantes presentes."
+  },
+  {
+    "id": 2,
+    "question": "¿Qué significa una línea amarilla continua en el centro de la carretera?",
+    "options": [
+      "Se permite adelantar",
+      "Prohibido adelantar",
+      "Cuidado, zona de curvas",
+      "Final de la carretera"
+    ],
+    "correct": 1,
+    "description": "La línea amarilla continua indica que está prohibido adelantar."
+  },
+  {
+    "id": 3,
+    "question": "¿Cuál es la multa por conducir bajo los efectos del alcohol en Costa Rica (Grado B)?",
+    "options": [
+      "Multa Clase A (más de 300,000 colones)",
+      "Multa Clase B",
+      "Multa Clase C",
+      "Solo amonestación"
+    ],
+    "correct": 0,
+    "description": "Conducir bajo efectos del alcohol (Grado B) conlleva la multa más alta (Clase A)."
+  },
+  {
+    "id": 4,
+    "question": "¿Qué indica la luz amarilla del semáforo?",
+    "options": [
+      "Acelerar para pasar rápido",
+      "Detenerse si es seguro hacerlo",
+      "Pasar sin importar la distancia",
+      "Emergencia en la vía"
+    ],
+    "correct": 1,
+    "description": "La luz amarilla indica prevención: debe detenerse si puede hacerlo de forma segura."
+  },
+  {
+    "id": 5,
+    "question": "¿A qué distancia debe colocarse el triángulo de seguridad en caso de avería?",
+    "options": [
+      "5 metros",
+      "15 a 30 metros",
+      "90 metros",
+      "No es necesario"
+    ],
+    "correct": 1,
+    "description": "Se recomienda colocar los dispositivos de seguridad a una distancia entre 15 y 30 metros."
+  },
+  {
+    "id": 6,
+    "question": "¿Cuál es el orden de prioridad de paso en una intersección sin señales?",
+    "options": [
+      "El que va más rápido",
+      "Vehículo que circula por la derecha",
+      "Vehículo que circula por la izquierda",
+      "El primero que llegue"
+    ],
+    "correct": 1,
+    "description": "En ausencia de señales, la prioridad la tiene el vehículo que circula por la derecha."
+  },
+  {
+    "id": 7,
+    "question": "¿Qué documento NO es obligatorio portar al conducir?",
+    "options": [
+      "Licencia de conducir vigente",
+      "Título de propiedad original",
+      "Derecho de circulación (Marchamo)",
+      "Revisión Técnica (DEKRA)"
+    ],
+    "correct": 1,
+    "description": "No es obligatorio portar el título de propiedad original, se puede portar una copia o el título digital."
+  },
+  {
+    "id": 8,
+    "question": "¿Cuándo se debe usar la luz alta?",
+    "options": [
+      "En ciudad siempre",
+      "En carreteras abiertas sin vehículos en sentido contrario",
+      "Cuando hay neblina densa siempre",
+      "Para avisar que voy a adelantar"
+    ],
+    "correct": 1,
+    "description": "La luz alta se usa en carreteras abiertas siempre que no encandile a otros conductores."
+  },
+  {
+    "id": 9,
+    "question": "¿Cuál es la distancia mínima lateral al adelantar a un ciclista?",
+    "options": [
+      "0.5 metros",
+      "1 metro",
+      "1.5 metros",
+      "2 metros"
+    ],
+    "correct": 2,
+    "description": "La Ley de Tránsito establece una distancia mínima de 1.5 metros al adelantar ciclistas."
+  },
+  {
+    "id": 10,
+    "question": "¿Qué indica una señal octagonal de color rojo?",
+    "options": [
+      "Ceda el paso",
+      "Pare",
+      "No entre",
+      "Vía exclusiva"
+    ],
+    "correct": 1,
+    "description": "La señal octagonal roja universalmente indica PARE (ALTO)."
+  },
+  {
+    "id": 11,
+    "question": "¿Cómo se define la seguridad vial?",
+    "options": [
+      "Solo reglas de tránsito",
+      "Prevención de accidentes en la vía",
+      "Manejo de multas",
+      "Control de semáforos"
+    ],
+    "correct": 1,
+    "description": "La seguridad vial es la disciplina que previene o minimiza accidentes y sus efectos."
+  },
+  {
+    "id": 12,
+    "question": "¿Cuál es la velocidad máxima en autopistas si no hay señalización específica?",
+    "options": [
+      "80 km/h",
+      "100 km/h",
+      "120 km/h",
+      "90 km/h"
+    ],
+    "correct": 1,
+    "description": "En autopistas la velocidad máxima general es de 100 km/h."
+  },
+  {
+    "id": 13,
+    "question": "¿Qué significa una línea blanca discontinua (intermitente)?",
+    "options": [
+      "Prohibido cambiar de carril",
+      "Carril solo para buses",
+      "Se permite el cambio de carril",
+      "Zona de parqueo"
+    ],
+    "correct": 2,
+    "description": "La línea blanca discontinua permite el cambio de carril con precaución."
+  },
+  {
+    "id": 14,
+    "question": "¿Qué debe hacer si encuentra una señal de CEDA EL PASO?",
+    "options": [
+      "Detenerse totalmente siempre",
+      "Reducir velocidad y dar paso a otros",
+      "Acelerar para entrar primero",
+      "Ignorar si no vienen carros"
+    ],
+    "correct": 1,
+    "description": "La señal indica que debe dar prioridad a los vehículos que ya están en la vía."
+  },
+  {
+    "id": 15,
+    "question": "¿Cuál es el nivel máximo de alcohol permitido en conductores novatos?",
+    "options": [
+      "0.50 gramos",
+      "0.20 gramos",
+      "0.00 gramos",
+      "0.38 gramos"
+    ],
+    "correct": 1,
+    "description": "Para conductores novatos y profesionales, el límite es de 0.20 gramos."
+  },
+  {
+    "id": 16,
+    "question": "¿Qué es el 'punto ciego'?",
+    "options": [
+      "Un fallo en el motor",
+      "Zona que no se ve por los espejos",
+      "Un lugar sin semáforos",
+      "Un bache en la carretera"
+    ],
+    "correct": 1,
+    "description": "El punto ciego es el área alrededor del vehículo que el conductor no puede observar directamente."
+  },
+  {
+    "id": 17,
+    "question": "¿Qué indica el humo azul en el escape de un vehículo?",
+    "options": [
+      "Exceso de gasolina",
+      "Fuga de refrigerante",
+      "Quema de aceite",
+      "Filtro de aire sucio"
+    ],
+    "correct": 2,
+    "description": "El humo azul indica que el motor está quemando aceite."
+  },
+  {
+    "id": 18,
+    "question": "¿Qué significa el color rojo en las señales de tráfico?",
+    "options": [
+      "Prevención",
+      "Información",
+      "Reglamentación o prohibición",
+      "Servicio"
+    ],
+    "correct": 2,
+    "description": "El rojo se asocia con señales de reglamentación, prohibición o detención."
+  },
+  {
+    "id": 19,
+    "question": "¿Cuál es la función del catalizador?",
+    "options": [
+      "Aumentar la potencia",
+      "Reducir emisiones contaminantes",
+      "Ahorrar combustible",
+      "Enfriar el motor"
+    ],
+    "correct": 1,
+    "description": "El catalizador convierte gases tóxicos en menos contaminantes."
+  },
+  {
+    "id": 20,
+    "question": "¿Qué se debe hacer si el carro comienza a patinar (aquaplaning)?",
+    "options": [
+      "Frenar a fondo",
+      "Acelerar para ganar tracción",
+      "Girar bruscamente el volante",
+      "Levantar el pie del acelerador suavemente"
+    ],
+    "correct": 3,
+    "description": "No frene bruscamente; desacelere y mantenga la dirección firme."
+  },
+  {
+    "id": 21,
+    "question": "¿Cuál es la primera regla ante un accidente de tránsito?",
+    "options": [
+      "Mover a los heridos rápido",
+      "Llamar al taller",
+      "Proteger, Avisar, Socorrer (PAS)",
+      "Tomar fotos para el seguro"
+    ],
+    "correct": 2,
+    "description": "La sigla PAS resume la actuación ante emergencias."
+  },
+  {
+    "id": 22,
+    "question": "¿Qué indica una señal de color naranja?",
+    "options": [
+      "Zona de hospitales",
+      "Obras en la vía",
+      "Parque nacional",
+      "Aeropuerto"
+    ],
+    "correct": 1,
+    "description": "El color naranja se utiliza para señalización temporal por obras."
+  },
+  {
+    "id": 23,
+    "question": "¿A cuántos metros de una hidrante está prohibido estacionar?",
+    "options": [
+      "2 metros",
+      "5 metros",
+      "10 metros",
+      "15 metros"
+    ],
+    "correct": 1,
+    "description": "Está prohibido estacionar a menos de 5 metros de un hidrante."
+  },
+  {
+    "id": 24,
+    "question": "¿Qué componente del vehículo transmite la fuerza del motor a las ruedas?",
+    "options": [
+      "El cigüeñal",
+      "El embrague",
+      "La transmisión",
+      "Los amortiguadores"
+    ],
+    "correct": 2,
+    "description": "La transmisión es el sistema encargado de llevar la potencia a las ruedas."
+  },
+  {
+    "id": 25,
+    "question": "¿Cuál es el uso de la 'línea de parada'?",
+    "options": [
+      "Lugar para parquear",
+      "Límite donde el vehículo debe detenerse",
+      "Inicio de zona escolar",
+      "Carril de adelanto"
+    ],
+    "correct": 1,
+    "description": "Es la línea transversal que indica dónde debe frenar el vehículo ante un Alto."
+  },
+  {
+    "id": 26,
+    "question": "¿Qué indica una señal triangular con borde rojo y fondo blanco?",
+    "options": [
+      "Prohibición",
+      "Información",
+      "Prevención",
+      "Obras"
+    ],
+    "correct": 2,
+    "description": "Las señales triangulares son de prevención (aunque en CR algunas son amarillas romboidales)."
+  },
+  {
+    "id": 27,
+    "question": "¿Cuándo se pierde el derecho de prioridad en una rotonda?",
+    "options": [
+      "Cuando se va por el carril interno",
+      "Al intentar ingresar a la misma",
+      "Al salir de la rotonda",
+      "Nunca se pierde"
+    ],
+    "correct": 1,
+    "description": "Tienen prioridad quienes ya circulan dentro de la rotonda."
+  },
+  {
+    "id": 28,
+    "question": "¿Qué significa el color verde en el semáforo?",
+    "options": [
+      "Pasar rápido",
+      "Vía libre con precaución",
+      "Girar obligatorio",
+      "Parar"
+    ],
+    "correct": 1,
+    "description": "Verde significa paso seguro pero siempre con precaución."
+  },
+  {
+    "id": 29,
+    "question": "¿Cuál es la función principal de los amortiguadores?",
+    "options": [
+      "Soportar el peso del carro",
+      "Mantener las llantas pegadas al suelo",
+      "Frenar el vehículo",
+      "Iluminar el camino"
+    ],
+    "correct": 1,
+    "description": "Absorben irregularidades y garantizan la estabilidad."
+  },
+  {
+    "id": 30,
+    "question": "¿Qué significa una línea de borde blanca continua?",
+    "options": [
+      "Separación de carriles",
+      "Límite exterior de la calzada",
+      "Prohibido adelantar",
+      "Zona de peatones"
+    ],
+    "correct": 1,
+    "description": "Indica el borde de la vía por el cual no se debe circular rutinariamente."
+  },
+  {
+    "id": 31,
+    "question": "¿Cuál es el elemento más importante de la seguridad vial?",
+    "options": [
+      "El vehículo",
+      "La carretera",
+      "El ser humano",
+      "La señalización"
+    ],
+    "correct": 2,
+    "description": "El factor humano es el responsable de la mayoría de los eventos viales."
+  },
+  {
+    "id": 32,
+    "question": "¿Qué indica el sistema ABS en los frenos?",
+    "options": [
+      "Aumento de velocidad",
+      "Frenado asistido automático",
+      "Prevención del bloqueo de ruedas",
+      "Frenado solo en seco"
+    ],
+    "correct": 2,
+    "description": "El ABS evita que las ruedas se bloqueen durante una frenada de emergencia."
+  },
+  {
+    "id": 33,
+    "question": "¿En qué sentido se circula por las rotondas en Costa Rica?",
+    "options": [
+      "A favor de las agujas del reloj",
+      "En contra de las agujas del reloj",
+      "Por donde sea más corto",
+      "Depende de la hora"
+    ],
+    "correct": 1,
+    "description": "La circulación en rotondas es hacia la derecha (sentido antihorario)."
+  },
+  {
+    "id": 34,
+    "question": "¿Cuándo debe realizarse el cambio de aceite?",
+    "options": [
+      "Cada 2 años",
+      "Cuando el carro deje de arrancar",
+      "Según el manual del fabricante",
+      "Solo si sale humo"
+    ],
+    "correct": 2,
+    "description": "Seguir las indicaciones del fabricante es vital para la vida del motor."
+  },
+  {
+    "id": 35,
+    "question": "¿Qué indica una señal informativa color azul?",
+    "options": [
+      "Restricciones de peso",
+      "Peligro inminente",
+      "Servicios y destinos",
+      "Reglas de velocidad"
+    ],
+    "correct": 2,
+    "description": "El azul se usa para indicar servicios como hospitales, gasolineras, etc."
+  },
+  {
+    "id": 36,
+    "question": "¿Cuál es la función del termostato?",
+    "options": [
+      "Controlar la presión de las llantas",
+      "Regular la temperatura del motor",
+      "Limpiar los parabrisas",
+      "Cargar la batería"
+    ],
+    "correct": 1,
+    "description": "Mantiene el motor en su temperatura óptima de funcionamiento."
+  },
+  {
+    "id": 37,
+    "question": "¿Qué significa 'conducción defensiva'?",
+    "options": [
+      "Conducir rápido para evitar choques",
+      "Esperar que los demás cometan errores y anticiparse",
+      "Usar el pito constantemente",
+      "Manejar solo por el carril izquierdo"
+    ],
+    "correct": 1,
+    "description": "Es conducir evitando accidentes a pesar de las acciones de otros."
+  },
+  {
+    "id": 38,
+    "question": "¿Qué indica una luz roja intermitente en un semáforo?",
+    "options": [
+      "Cruzar rápido",
+      "Ceda el paso",
+      "Equivale a una señal de ALTO",
+      "Fallo del sistema, ignore"
+    ],
+    "correct": 2,
+    "description": "Obliga a detenerse totalmente antes de continuar si la vía está despejada."
+  },
+  {
+    "id": 39,
+    "question": "¿Cuál es la distancia recomendada de seguimiento (regla de los segundos)?",
+    "options": [
+      "1 segundo",
+      "2 segundos",
+      "5 segundos",
+      "10 segundos"
+    ],
+    "correct": 1,
+    "description": "Se recomienda mantener al menos 2 segundos de distancia con el vehículo de adelante."
+  },
+  {
+    "id": 40,
+    "question": "¿Qué servicio o documento se conoce actualmente como DEKRA?",
+    "options": [
+      "Permiso de pesos",
+      "Revisión Técnica Vehicular",
+      "Certificado de emisión de gases únicamente",
+      "Factura del vehículo"
+    ],
+    "correct": 1,
+    "description": "Es la inspección periódica obligatoria para garantizar el estado del vehículo."
+  },
+  {
+    "id": 41,
+    "question": "¿Qué significa 'distancia de reacción'?",
+    "options": [
+      "Distancia desde que frena hasta que para",
+      "Distancia recorrida desde que ve el peligro hasta que pisa el freno",
+      "Distancia entre dos carros",
+      "Ancho de la carretera"
+    ],
+    "correct": 1,
+    "description": "Es el trayecto que el carro avanza mientras el conductor responde al estímulo."
+  },
+  {
+    "id": 42,
+    "question": "¿Para qué sirve el lubricante en el motor?",
+    "options": [
+      "Para que el carro corra más",
+      "Reducir la fricción entre piezas móviles",
+      "Limpiar las bujías",
+      "Endurecer el metal"
+    ],
+    "correct": 1,
+    "description": "Evita el desgaste excesivo y ayuda a enfriar las partes internas."
+  },
+  {
+    "id": 43,
+    "question": "¿Qué indica el color amarillo en una señal vertical?",
+    "options": [
+      "Información",
+      "Reglamentación",
+      "Prevención",
+      "Mantenimiento"
+    ],
+    "correct": 2,
+    "description": "El fondo amarillo indica advertencia o peligro próximo."
+  },
+  {
+    "id": 44,
+    "question": "¿Qué debe hacer si se estalla una llanta mientras conduce?",
+    "options": [
+      "Frenar bruscamente",
+      "Meter el embrague de inmediato",
+      "Sujetar firmemente el volante y desacelerar gradualmente",
+      "Girar a la izquierda"
+    ],
+    "correct": 2,
+    "description": "El control del volante es crítico para evitar que el vehículo gire sin control."
+  },
+  {
+    "id": 45,
+    "question": "¿Cuál es la consecuencia de la fatiga al conducir?",
+    "options": [
+      "Mejora la vista",
+      "Reduce el tiempo de reacción",
+      "Aumenta el tiempo de reacción (más lento)",
+      "Ahorra gasolina"
+    ],
+    "correct": 2,
+    "description": "El cansancio hace que el cerebro tarde más en procesar información."
+  },
+  {
+    "id": 46,
+    "question": "¿Qué es la calzada?",
+    "options": [
+      "La acera",
+      "La parte de la vía destinada a vehículos",
+      "El espaldón",
+      "El zacate al lado del río"
+    ],
+    "correct": 1,
+    "description": "Es la superficie por donde circulan los automotores."
+  },
+  {
+    "id": 47,
+    "question": "¿Qué indica una señal de E tachada con una X?",
+    "options": [
+      "Permitido estacionar",
+      "Prohibido estacionar y detenerse",
+      "Solo buses",
+      "Zona de carga"
+    ],
+    "correct": 1,
+    "description": "Indica prohibición total de parada o estacionamiento."
+  },
+  {
+    "id": 48,
+    "question": "¿Cómo se llama el proceso de encendido en motores de gasolina?",
+    "options": [
+      "Compresión",
+      "Chispa (bujía)",
+      "Inyección directa de agua",
+      "Fricción"
+    ],
+    "correct": 1,
+    "description": "La bujía genera la chispa necesaria para la combustión."
+  },
+  {
+    "id": 49,
+    "question": "¿Qué indica la luz verde intermitente en algunos países o situaciones?",
+    "options": [
+      "Va a cambiar a amarillo",
+      "Acelere más",
+      "Giro permitido a la derecha únicamente",
+      "Pare"
+    ],
+    "correct": 0,
+    "description": "Advierte el fin del tiempo de paso."
+  },
+  {
+    "id": 50,
+    "question": "¿Cuál es el principal gas contaminante de los vehículos?",
+    "options": [
+      "Oxígeno",
+      "Monóxido de carbono",
+      "Hidrógeno",
+      "Argón"
+    ],
+    "correct": 1,
+    "description": "El CO es un gas altamente tóxico producto de la combustión incompleta."
+  },
+  {
+    "id": 51,
+    "question": "¿Qué es el derecho de paso?",
+    "options": [
+      "Poder ir a cualquier velocidad",
+      "Privilegio de ocupar un espacio de la vía primero",
+      "Cruzar sin mirar",
+      "Tener carro nuevo"
+    ],
+    "correct": 1,
+    "description": "Es la preferencia legal para circular sobre otros usuarios."
+  },
+  {
+    "id": 52,
+    "question": "¿Cuál es la función del líquido de frenos?",
+    "options": [
+      "Lubricar el volante",
+      "Transmitir la fuerza del pedal a las pinzas/bombas",
+      "Enfriar el motor",
+      "Limpiar los vidrios"
+    ],
+    "correct": 1,
+    "description": "Es un fluido hidráulico que permite el frenado."
+  },
+  {
+    "id": 53,
+    "question": "¿Qué indica una línea continua blanca?",
+    "options": [
+      "Se puede adelantar",
+      "Prohibido el cambio de carril",
+      "Zona de parqueo",
+      "Paso de peatones"
+    ],
+    "correct": 1,
+    "description": "A diferencia de la discontinua, esta prohíbe maniobras de cambio de carril."
+  },
+  {
+    "id": 54,
+    "question": "¿Cuál es la multa máxima de tránsito?",
+    "options": [
+      "Clase A",
+      "Clase B",
+      "Clase E",
+      "Clase Z"
+    ],
+    "correct": 0,
+    "description": "Las multas Clase A son las de mayor cuantía económica."
+  },
+  {
+    "id": 55,
+    "question": "¿Qué parte del ojo se afecta más por el encandilamiento?",
+    "options": [
+      "El párpado",
+      "La retina",
+      "El nervio óptico",
+      "La pupila"
+    ],
+    "correct": 3,
+    "description": "La pupila se contrae o dilata para regular la luz."
+  },
+  {
+    "id": 56,
+    "question": "¿Qué significa una luz amarilla intermitente?",
+    "options": [
+      "Pare",
+      "Precaución",
+      "Acelere",
+      "Vía cerrada"
+    ],
+    "correct": 1,
+    "description": "Indica precaución y reducción de velocidad."
+  },
+  {
+    "id": 57,
+    "question": "¿Cuál es la función de la batería?",
+    "options": [
+      "Mover las ruedas",
+      "Almacenar energía eléctrica",
+      "Limpiar el aceite",
+      "Enfriar el aire"
+    ],
+    "correct": 1,
+    "description": "Provee energía para el arranque y sistemas eléctricos."
+  },
+  {
+    "id": 58,
+    "question": "¿Qué es un adelantamiento?",
+    "options": [
+      "Ir detrás de un carro",
+      "Pasar a un vehículo que va en el mismo sentido",
+      "Choque frontal",
+      "Giro a la izquierda"
+    ],
+    "correct": 1,
+    "description": "Maniobra para sobrepasar a otro usuario de la vía."
+  },
+  {
+    "id": 59,
+    "question": "¿Qué significa el término 'vía pública'?",
+    "options": [
+      "Solo las calles de San José",
+      "Espacio de circulación soberano del Estado",
+      "El patio de mi casa",
+      "Centros comerciales únicamente"
+    ],
+    "correct": 1,
+    "description": "Todo terreno de uso común donde el Estado regula el tránsito."
+  },
+  {
+    "id": 60,
+    "question": "¿Qué indica el medidor de revoluciones (RPM)?",
+    "options": [
+      "Velocidad del carro",
+      "Velocidad de giro del motor",
+      "Cantidad de gasolina",
+      "Carga de la batería"
+    ],
+    "correct": 1,
+    "description": "Indica cuántas vueltas por minuto da el motor."
+  },
+  {
+    "id": 61,
+    "question": "¿Cómo se llama el área donde se cruzan dos o más vías?",
+    "options": [
+      "Acera",
+      "Intersección",
+      "Cuneta",
+      "Puente"
+    ],
+    "correct": 1,
+    "description": "Es el punto de confluencia de flujos vehiculares."
+  },
+  {
+    "id": 62,
+    "question": "¿Cuál es la función del alternador?",
+    "options": [
+      "Gastar la batería",
+      "Generar electricidad mientras el motor funciona",
+      "Cambiar las marchas",
+      "Bombear agua"
+    ],
+    "correct": 1,
+    "description": "Mantiene la carga de la batería y alimenta los sistemas."
+  },
+  {
+    "id": 63,
+    "question": "¿Qué significa el color café en las señales?",
+    "options": [
+      "Obras",
+      "Información turística o ecológica",
+      "Peligro",
+      "Reglamentación"
+    ],
+    "correct": 1,
+    "description": "Se usa para destinos de recreación y parques nacionales."
+  },
+  {
+    "id": 64,
+    "question": "¿Qué son los sistemas de seguridad pasiva?",
+    "options": [
+      "Los que previenen el choque",
+      "Los que minimizan daños una vez ocurre el choque",
+      "Los frenos únicamente",
+      "La alarma del carro"
+    ],
+    "correct": 1,
+    "description": "Ejemplos: cinturón de seguridad, bolsas de aire."
+  },
+  {
+    "id": 65,
+    "question": "¿Cuándo debe usarse la luz direccional?",
+    "options": [
+      "Después de haber girado",
+      "Antes de realizar cualquier maniobra de giro o cambio",
+      "Solo de noche",
+      "Nunca es necesaria"
+    ],
+    "correct": 1,
+    "description": "Es vital para informar a otros de nuestras intenciones."
+  },
+  {
+    "id": 66,
+    "question": "¿Qué es la distancia de frenado?",
+    "options": [
+      "Distancia que recorre el carro desde que pisa el freno hasta que se detiene",
+      "Distancia al taller",
+      "Ancho de la llanta",
+      "Distancia de reacción"
+    ],
+    "correct": 0,
+    "description": "Depende de la velocidad, estado de frenos y calzada."
+  },
+  {
+    "id": 67,
+    "question": "¿Cuál es el orden de las luces del semáforo de arriba hacia abajo?",
+    "options": [
+      "Verde, Amarillo, Rojo",
+      "Rojo, Amarillo, Verde",
+      "Amarillo, Rojo, Verde",
+      "Rojo, Verde, Amarillo"
+    ],
+    "correct": 1,
+    "description": "El estándar es Rojo (arriba), Amarillo (centro), Verde (abajo)."
+  },
+  {
+    "id": 68,
+    "question": "¿Qué indica el pedal del centro en un carro manual?",
+    "options": [
+      "Embrague",
+      "Freno",
+      "Acelerador",
+      "Freno de mano"
+    ],
+    "correct": 1,
+    "description": "En manual: Embrague (izq), Freno (centro), Acelerador (der)."
+  },
+  {
+    "id": 69,
+    "question": "¿Qué es el hidrante?",
+    "options": [
+      "Tubo para lavar carros",
+      "Dispositivo para abastecer de agua a bomberos",
+      "Señal de tránsito",
+      "Tipo de gasolina"
+    ],
+    "correct": 1,
+    "description": "Elemento de seguridad contra incendios."
+  },
+  {
+    "id": 70,
+    "question": "¿A qué velocidad se duplica la distancia de frenado si la vía está mojada?",
+    "options": [
+      "Se mantiene igual",
+      "Se reduce a la mitad",
+      "Aproximadamente al doble o más",
+      "No influye"
+    ],
+    "correct": 2,
+    "description": "El agua reduce la fricción drásticamente."
+  },
+  {
+    "id": 71,
+    "question": "¿Cuál es la función del radiador?",
+    "options": [
+      "Calentar el carro",
+      "Enfriar el líquido refrigerante",
+      "Limpiar la gasolina",
+      "Almacenar electricidad"
+    ],
+    "correct": 1,
+    "description": "Es parte fundamental del sistema de enfriamiento."
+  },
+  {
+    "id": 72,
+    "question": "¿Qué significa una línea amarilla discontinua?",
+    "options": [
+      "Permite adelantar con precaución",
+      "Prohibido adelantar",
+      "Calle cerrada",
+      "Zona de juegos"
+    ],
+    "correct": 0,
+    "description": "Si es discontinua, permite la maniobra de adelantamiento."
+  },
+  {
+    "id": 73,
+    "question": "¿Cuántas ruedas tiene un cuadraciclo legalmente?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct": 2,
+    "description": "Como su nombre indica, posee 4 ruedas."
+  },
+  {
+    "id": 74,
+    "question": "¿Qué indica la placa del vehículo?",
+    "options": [
+      "El nombre del dueño",
+      "Identificación única registral",
+      "El color preferido",
+      "La velocidad permitida"
+    ],
+    "correct": 1,
+    "description": "Es la cédula del automotor."
+  },
+  {
+    "id": 75,
+    "question": "¿Cuál es la función de los espejos?",
+    "options": [
+      "Decoración",
+      "Ampliar el campo visual del conductor",
+      "Ver a los pasajeros",
+      "Ninguna"
+    ],
+    "correct": 1,
+    "description": "Permiten monitorear el entorno lateral y trasero."
+  },
+  {
+    "id": 76,
+    "question": "¿Qué significa el término 'vía urbana'?",
+    "options": [
+      "Carretera en el campo",
+      "Vía dentro de poblados",
+      "Autopista",
+      "Calle sin salida"
+    ],
+    "correct": 1,
+    "description": "Vía en zonas residenciales o comerciales de ciudades."
+  },
+  {
+    "id": 77,
+    "question": "¿Qué indica el medidor de temperatura?",
+    "options": [
+      "Temperatura del clima",
+      "Temperatura del motor (refrigerante)",
+      "Temperatura de las llantas",
+      "Carga solar"
+    ],
+    "correct": 1,
+    "description": "Crucial para evitar recalentamientos."
+  },
+  {
+    "id": 78,
+    "question": "¿Qué es una rotonda?",
+    "options": [
+      "Una curva cerrada",
+      "Intersección donde el tránsito circula en anillo",
+      "Un parque",
+      "Un puente peatonal"
+    ],
+    "correct": 1,
+    "description": "Sistema de distribución de tráfico circular."
+  },
+  {
+    "id": 79,
+    "question": "¿Para qué sirve el freno de mano?",
+    "options": [
+      "Para frenar rápido a 100km/h",
+      "Para mantener el vehículo inmóvil al parquear",
+      "Para acelerar",
+      "Es de lujo"
+    ],
+    "correct": 1,
+    "description": "Es un freno mecánico de emergencia/estacionamiento."
+  },
+  {
+    "id": 80,
+    "question": "¿Qué debe hacer si el semáforo está en rojo pero un oficial indica pasar?",
+    "options": [
+      "Seguir al semáforo",
+      "Obedecer al oficial de tránsito",
+      "Esperar a que ambos coincidan",
+      "Llamar al 911"
+    ],
+    "correct": 1,
+    "description": "Las órdenes de un oficial prevalecen sobre señales y semáforos."
+  },
+  {
+    "id": 81,
+    "question": "¿Qué es la calzada mojada?",
+    "options": [
+      "Un tipo de asfalto",
+      "Vía con agua que reduce adherencia",
+      "Calle recién pintada",
+      "Zona de río"
+    ],
+    "correct": 1,
+    "description": "Es una condición de riesgo que exige menor velocidad."
+  },
+  {
+    "id": 82,
+    "question": "¿Cuál es la función del pistón?",
+    "options": [
+      "Mover el aceite",
+      "Recibir la fuerza de la explosión y mover el cigüeñal",
+      "Enfriar el aire",
+      "Limpiar vidrios"
+    ],
+    "correct": 1,
+    "description": "Pieza móvil clave del motor de combustión."
+  },
+  {
+    "id": 83,
+    "question": "¿Qué es el espaldón?",
+    "options": [
+      "Cama del carro",
+      "Franja de vía no destinada a tránsito regular de vehículos",
+      "Parte para peatones únicamente",
+      "Centro de la calle"
+    ],
+    "correct": 1,
+    "description": "Zona de emergencia a los lados de la calzada."
+  },
+  {
+    "id": 84,
+    "question": "¿Qué indica el sensor de presión de aceite?",
+    "options": [
+      "Si hay mucha gasolina",
+      "Si el motor está bien lubricado",
+      "La temperatura exterior",
+      "Carga de batería"
+    ],
+    "correct": 1,
+    "description": "Si se enciende la luz, apague el motor de inmediato."
+  },
+  {
+    "id": 85,
+    "question": "¿Qué son los 'catadióptricos'?",
+    "options": [
+      "Luces LED",
+      "Elementos que reflejan la luz",
+      "Sensores de lluvia",
+      "Bocinas"
+    ],
+    "correct": 1,
+    "description": "Dispositivos que brillan al recibir luz de otro vehículo."
+  },
+  {
+    "id": 86,
+    "question": "¿Qué es un vuelco?",
+    "options": [
+      "Girar a la derecha",
+      "Perder equilibrio y quedar sobre un lado o techo",
+      "Pintar el carro",
+      "Acelerar fuerte"
+    ],
+    "correct": 1,
+    "description": "Accidente donde el vehículo pierde su posición normal."
+  },
+  {
+    "id": 87,
+    "question": "¿Cuál es el uso de la 'berma'?",
+    "options": [
+      "Correr",
+      "Zona de seguridad lateral",
+      "Parquear para siempre",
+      "Carril de buses"
+    ],
+    "correct": 1,
+    "description": " مشابه al espaldón."
+  },
+  {
+    "id": 88,
+    "question": "¿Qué indica el sistema de escape?",
+    "options": [
+      "Por donde entra el aire",
+      "Salida de gases de combustión",
+      "Entrada de gasolina",
+      "Enfriamiento"
+    ],
+    "correct": 1,
+    "description": "Canaliza y silencia los gases del motor."
+  },
+  {
+    "id": 89,
+    "question": "¿Cuál es el riesgo de la conducción nocturna?",
+    "options": [
+      "Más visibilidad",
+      "Menor visibilidad y fatiga",
+      "Más carros en la vía",
+      "Menos consumo de aceite"
+    ],
+    "correct": 1,
+    "description": "La falta de luz natural dificulta la percepción."
+  },
+  {
+    "id": 90,
+    "question": "¿Qué indica una señal romboidal amarilla?",
+    "options": [
+      "Reglamentación",
+      "Información",
+      "Prevención",
+      "Restricción"
+    ],
+    "correct": 2,
+    "description": "Señales de advertencia de riesgos fijos."
+  },
+  {
+    "id": 91,
+    "question": "¿Qué es la tracción a las 4 ruedas (4WD)?",
+    "options": [
+      "El motor tiene 4 pistones",
+      "La fuerza del motor llega a todas las ruedas",
+      "El carro tiene 4 marchas",
+      "4 frenos de disco"
+    ],
+    "correct": 1,
+    "description": "Útil para terrenos de baja adherencia."
+  },
+  {
+    "id": 92,
+    "question": "¿Qué indica el término 'derecho de circulación'?",
+    "options": [
+      "Licencia",
+      "Marchamo (pago anual)",
+      "Pagar peajes",
+      "Ser tico"
+    ],
+    "correct": 1,
+    "description": "Impuesto y seguro obligatorio pagado anualmente."
+  },
+  {
+    "id": 93,
+    "question": "¿Cuál es la función del filtro de aire?",
+    "options": [
+      "Limpiar el aceite",
+      "Limpiar el aire que entra al motor",
+      "Enfriar el habitáculo",
+      "Limpiar el escape"
+    ],
+    "correct": 1,
+    "description": "Evita que polvo y basura dañen el motor."
+  },
+  {
+    "id": 94,
+    "question": "¿Qué es una colisión?",
+    "options": [
+      "Un roce suave",
+      "Choque entre dos o más vehículos",
+      "Choque contra objeto fijo",
+      "Un peaje"
+    ],
+    "correct": 1,
+    "description": "Impacto entre unidades de tránsito."
+  },
+  {
+    "id": 95,
+    "question": "¿Qué indica el nivel de combustible?",
+    "options": [
+      "Cuanta agua tiene el motor",
+      "Cuanta gasolina queda",
+      "Cuanto aceite queda",
+      "Peso del carro"
+    ],
+    "correct": 1,
+    "description": "Medidor en el tablero (E-F)."
+  },
+  {
+    "id": 96,
+    "question": "¿Qué es el 'efecto túnel'?",
+    "options": [
+      "Manejar dentro de un túnel",
+      "Pérdida de visión periférica por alta velocidad",
+      "Mirar solo el velocímetro",
+      "Puntos ciegos"
+    ],
+    "correct": 1,
+    "description": "A mayor velocidad, el ángulo de visión se reduce."
+  },
+  {
+    "id": 97,
+    "question": "¿Qué indica una señal circular blanca con borde rojo?",
+    "options": [
+      "Peligro",
+      "Restricción o prohibición",
+      "Información",
+      "Destino"
+    ],
+    "correct": 1,
+    "description": "Indica 'No', 'Prohibido' o límites máximos."
+  },
+  {
+    "id": 98,
+    "question": "¿Qué es el chasis?",
+    "options": [
+      "El motor",
+      "Estructura soporte del vehículo",
+      "El color de la pintura",
+      "Las llantas"
+    ],
+    "correct": 1,
+    "description": "Es el esqueleto del carro."
+  },
+  {
+    "id": 99,
+    "question": "¿Cuál es la regla de oro de la seguridad vial?",
+    "options": [
+      "Tener el mejor carro",
+      "Cortesía y respeto a la vida",
+      "Nunca frenar",
+      "Llegar primero"
+    ],
+    "correct": 1,
+    "description": "La convivencia y el respeto salvan vidas."
+  },
+  {
+    "id": 100,
+    "question": "¿Por qué es obligatorio el cinturón de seguridad?",
+    "options": [
+      "Para que no me multen",
+      "Para evitar salir expulsado en un choque",
+      "Para estar cómodo",
+      "No es obligatorio"
+    ],
+    "correct": 1,
+    "description": "Es el sistema de seguridad pasiva más efectivo."
+  }
+]
