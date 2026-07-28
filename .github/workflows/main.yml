@@ -18,10 +18,8 @@ jobs:
       with:
         node-version: 20
 
-    - name: Install dependencies with native optional binaries
-      run: |
-        npm ci || npm install
-        npm rebuild
+    - name: Install dependencies
+      run: npm install
 
     - name: Build Web Assets
       run: npm run build
@@ -32,23 +30,13 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Install & Configure Capacitor
-      run: |
-        npm install @capacitor/core @capacitor/cli @capacitor/android
-        if [ ! -f "capacitor.config.json" ] && [ ! -f "capacitor.config.ts" ]; then
-          npx cap init ConducePro com.conducepro.app --web-dir dist
-        fi
-
-    - name: Add Android Platform & Sync
-      run: |
-        npx cap add android || true
-        npx cap sync android
+    - name: Set up Gradle
+      uses: gradle/actions/setup-gradle@v3
 
     - name: Build Android App Bundle (.aab)
       run: |
         cd android
-        chmod +x gradlew
-        ./gradlew bundleRelease
+        gradle bundleRelease
 
     - name: Upload .aab Artifact
       uses: actions/upload-artifact@v4
