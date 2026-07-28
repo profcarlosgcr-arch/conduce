@@ -38,22 +38,27 @@ jobs:
         npm install @capacitor/core @capacitor/cli @capacitor/android
         npx cap init ConducePro com.conducepro.app --web-dir dist || true
         
-        # Elimina la carpeta android incompleta si existe y la genera de cero
         rm -rf android
         npx cap add android
         
-        # Inyecta el permiso de Billing de forma automática en el manifiesto generado
+        # Inyecta el permiso de Billing de forma automática en el manifiesto
         MANIFEST_PATH="android/app/src/main/AndroidManifest.xml"
         if [ -f "$MANIFEST_PATH" ]; then
           sed -i '/<\/manifest>/i \    <uses-permission android:name="com.android.vending.BILLING" \/>' "$MANIFEST_PATH"
         fi
         
+        # Resuelve el conflicto de clases duplicadas de Kotlin en Gradle
+        GRADLE_PATH="android/build.gradle"
+        if [ -f "$GRADLE_PATH" ]; then
+          echo 'allprojects { configurations.all { resolutionStrategy.capabilitiesResolution.withCapability("org.jetbrains.kotlin:kotlin-stdlib-jdk8") { select("org.jetbrains.kotlin:kotlin-stdlib:1.8.22") } } }' >> "$GRADLE_PATH"
+        fi
+
         npx cap sync android
 
     - name: Build Android App Bundle (.aab)
       run: |
         cd android
-        gradle bundleRelease
+        gradle bundleRelease -Pandroid.useAndroidX=true -Pandroid.enableJetifier=true
 
     - name: Upload .aab Artifact
       uses: actions/upload-artifact@v4
