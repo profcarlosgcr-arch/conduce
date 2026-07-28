@@ -16,12 +16,12 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: 18
+        node-version: 20
 
-    - name: Install dependencies
+    - name: Install dependencies with native optional binaries
       run: |
-        npm install
-        npm install @capacitor/core @capacitor/cli @capacitor/android
+        npm ci || npm install
+        npm rebuild
 
     - name: Build Web Assets
       run: npm run build
@@ -32,8 +32,9 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Initialize Capacitor Config if missing
+    - name: Install & Configure Capacitor
       run: |
+        npm install @capacitor/core @capacitor/cli @capacitor/android
         if [ ! -f "capacitor.config.json" ] && [ ! -f "capacitor.config.ts" ]; then
           npx cap init ConducePro com.conducepro.app --web-dir dist
         fi
