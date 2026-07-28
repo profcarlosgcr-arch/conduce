@@ -18,8 +18,10 @@ jobs:
       with:
         node-version: 18
 
-    - name: Install Node Dependencies
-      run: npm install
+    - name: Install Node Dependencies & Native Binaries
+      run: |
+        npm install
+        npm rebuild
 
     - name: Build Web Assets
       run: npm run build
