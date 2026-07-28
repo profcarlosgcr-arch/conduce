@@ -43,24 +43,14 @@ jobs:
         rm -rf android
         npx cap add android
         
-        # Inyecta el permiso de Billing de forma automática en el manifiesto
         MANIFEST_PATH="android/app/src/main/AndroidManifest.xml"
         if [ -f "$MANIFEST_PATH" ]; then
           sed -i '/<\/manifest>/i \    <uses-permission android:name="com.android.vending.BILLING" \/>' "$MANIFEST_PATH"
         fi
         
-        # Excluye kotlin-stdlib-jdk8/jdk7 para erradicar las clases duplicadas
         GRADLE_PATH="android/build.gradle"
         if [ -f "$GRADLE_PATH" ]; then
-          cat << 'EOF' >> "$GRADLE_PATH"
-
-subprojects {
-    configurations.all {
-        exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk8'
-        exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk7'
-    }
-}
-EOF
+          echo 'subprojects { configurations.all { exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib-jdk8"; exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib-jdk7" } }' >> "$GRADLE_PATH"
         fi
 
         npx cap sync android
