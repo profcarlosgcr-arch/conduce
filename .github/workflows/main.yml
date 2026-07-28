@@ -33,6 +33,23 @@ jobs:
     - name: Set up Gradle
       uses: gradle/actions/setup-gradle@v3
 
+    - name: Generate Native Android Project
+      run: |
+        npm install @capacitor/core @capacitor/cli @capacitor/android
+        npx cap init ConducePro com.conducepro.app --web-dir dist || true
+        
+        # Elimina la carpeta android incompleta si existe y la genera de cero
+        rm -rf android
+        npx cap add android
+        
+        # Inyecta el permiso de Billing de forma automática en el manifiesto generado
+        MANIFEST_PATH="android/app/src/main/AndroidManifest.xml"
+        if [ -f "$MANIFEST_PATH" ]; then
+          sed -i '/<\/manifest>/i \    <uses-permission android:name="com.android.vending.BILLING" \/>' "$MANIFEST_PATH"
+        fi
+        
+        npx cap sync android
+
     - name: Build Android App Bundle (.aab)
       run: |
         cd android
