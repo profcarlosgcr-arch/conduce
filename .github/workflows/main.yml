@@ -16,9 +16,9 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: 20
+        node-version: 18
 
-    - name: Install dependencies
+    - name: Install Node Dependencies
       run: npm install
 
     - name: Build Web Assets
@@ -30,35 +30,26 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Set up Gradle with Java 17
-      uses: gradle/actions/setup-gradle@v3
-      with:
-        java-version: '17'
-
-    - name: Generate Native Android Project
+    - name: Setup & Sync Capacitor 5 (Stable)
       run: |
-        npm install @capacitor/core @capacitor/cli @capacitor/android
+        npm install @capacitor/core@5 @capacitor/cli@5 @capacitor/android@5
         npx cap init ConducePro com.conducepro.app --web-dir dist || true
-        
         rm -rf android
         npx cap add android
         
+        # Inyecta el permiso de Billing para Google Play Console
         MANIFEST_PATH="android/app/src/main/AndroidManifest.xml"
         if [ -f "$MANIFEST_PATH" ]; then
           sed -i '/<\/manifest>/i \    <uses-permission android:name="com.android.vending.BILLING" \/>' "$MANIFEST_PATH"
         fi
         
-        GRADLE_PATH="android/build.gradle"
-        if [ -f "$GRADLE_PATH" ]; then
-          echo 'subprojects { configurations.all { exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib-jdk8"; exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib-jdk7" } }' >> "$GRADLE_PATH"
-        fi
-
         npx cap sync android
 
     - name: Build Android App Bundle (.aab)
       run: |
         cd android
-        gradle bundleRelease -Pandroid.useAndroidX=true -Pandroid.enableJetifier=false
+        chmod +x gradlew
+        ./gradlew bundleRelease
 
     - name: Upload .aab Artifact
       uses: actions/upload-artifact@v4
