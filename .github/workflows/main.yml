@@ -30,8 +30,10 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Set up Gradle
+    - name: Set up Gradle with Java 17
       uses: gradle/actions/setup-gradle@v3
+      with:
+        java-version: '17'
 
     - name: Generate Native Android Project
       run: |
@@ -41,13 +43,13 @@ jobs:
         rm -rf android
         npx cap add android
         
-        # Inyecta el permiso de Billing de forma automática en el manifiesto
+        # Inyecta el permiso de Billing automáticamente
         MANIFEST_PATH="android/app/src/main/AndroidManifest.xml"
         if [ -f "$MANIFEST_PATH" ]; then
           sed -i '/<\/manifest>/i \    <uses-permission android:name="com.android.vending.BILLING" \/>' "$MANIFEST_PATH"
         fi
         
-        # Resuelve el conflicto de clases duplicadas de Kotlin en Gradle
+        # Resuelve duplicación de clases en Kotlin
         GRADLE_PATH="android/build.gradle"
         if [ -f "$GRADLE_PATH" ]; then
           echo 'allprojects { configurations.all { resolutionStrategy.capabilitiesResolution.withCapability("org.jetbrains.kotlin:kotlin-stdlib-jdk8") { select("org.jetbrains.kotlin:kotlin-stdlib:1.8.22") } } }' >> "$GRADLE_PATH"
